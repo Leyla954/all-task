@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(121, 121, 201);
+}
+
+.item{
+    background-color: rgb(175, 157, 157);
+}
+.item1{
+    background-color: rgb(116, 199, 166);
+}
+.item2 td{
+    background-color: rgb(194, 186, 186);
+}
+.item3 td{
+    background-color: rgb(234, 248, 234);
+}

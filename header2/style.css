@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    box-shadow: 3px 3px 3px rgb(188, 188, 188);
+    padding: 20px 0;
+    background-color: white;
+}
+
+.logo h1 span {
+    color: #77b122;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    transition: 0.6s;
+    color: black;
+}
+
+nav ul li a:hover {
+    margin: 25px;
+    color: #77b122;
+}
+
+.farmie {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#farmie {
+    padding: 30px 0;
+}
+
+.img {
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://preview.colorlib.com/theme/farmie/img/bg-img/17.jpg.webp");
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: aliceblue;
+    padding: 30px ;
+    
+}
+.card h3{
+    font-size: 25px;
+    padding: 25px 0;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.img h2 {
+    padding: 20px 0;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px;
+
+}
+.card span{
+    color: gray;
+}
+.card h3:hover{
+color: #77b122;
+scale: 1.05;
+}
+.img h2:hover{
+    color:#77b122;
+    scale: 1.05;
+}
+.img2{
+    background-image: url("https://preview.colorlib.com/theme/farmie/img/bg-img/8.jpg.webp");
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
